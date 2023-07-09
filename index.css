@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-all {
+    background-color: aqua;
+    background-image: url(Img/avion-y-nubes-02.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 207.4vh;
+}
+
+.navi {
+    background-color: black;
+    width: 207.4vh;
+    height: 6vh;
+}
+
+.contenedor-all p {
+    position: absolute;
+    left: 40vh;
+    top: 5.5vh;
+}
+
+.contenedor-all .carro {
+    position: absolute;
+    height: 5vh;
+    left: 200vh;
+	top: 5.5vh;
+}
+
+.lupa {
+    position: absolute;
+    width: 5vh;
+    top: 29vh;
+    left: 141vh;
+
+}
+
+.insta {
+    position: absolute;
+    transition: 0.5s;
+    top: 5.5vh;
+    height: 5vh;
+    left: 180vh;
+
+}
+
+.insta:hover {
+    scale: 1.5;
+    transition-duration: 0.5s;
+}
+
+.whats:hover {
+    scale: 1.5;
+    transition-duration: 0.5s;
+}
+
+.whats {
+    position: absolute;
+    transition: 0.5s;
+    top: 5.5vh;
+    height: 5vh;
+    left: 190vh;
+}
+
+.contenedor-all input {
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 20px;
+    height: 7vh;
+    width: 70vh;
+    left: 70vh;
+    top: 28vh;
+    text-align: center;
+}
+
+.p {
+    margin-left: 17vh;
+}
+
+.logo {
+    height: 10vh;
+    width: 25vh;
+    margin-left: 3vh;
+    margin-top: 3vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.logo img {
+    height: 10vh;
+    width: 25vh;
+
+}
+
+
+
+.navi li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+    margin-left: 20px;
+}
+
+.navi li a {
+    color: white;
+}
+
+.navi li:hover {
+    background-color: #434343;
+    transition-duration: 0.5s;
+}
+
+#header {
+	margin: auto;
+    width: 83px;
+    margin-right: 20vh;
+    
+}
+
+.nav li a {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+    transition-duration: 0.5s;
+}
+
+.nav li ul {
+    display:none ;
+    position: absolute;
+    min-width: 140px;
+
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+	flex-wrap: wrap;
+    margin-top: -5.7vh;
+    position: absolute;
+    width: 170vh;
+}
+
+.targetas {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+	justify-content: center;
+    margin: 5vh;
+    height: 50vh;
+    width: 30vh;
+}
+
+.producto {
+    background-color: blue;
+    background-image: url(Img/WhatsApp\ Image\ 2023-07-09\ at\ 12.19.16\ PM.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 30vh;
+    height: 30vh;
+}
+
+
+.producto p {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 5px;
+}
+
+.precio {
+    text-decoration:line-through;
+}
+
+
+
+
