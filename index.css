@@ -119,49 +119,21 @@
     transition-duration: 0.5s;
 }
 
-#header {
-	margin: auto;
-    width: 83px;
-    margin-right: 20vh;
-    
-}
 
-.nav li a {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    display: block;
-}
-
-.nav li a:hover {
-    background-color: #434343;
-    transition-duration: 0.5s;
-}
-
-.nav li ul {
-    display:none ;
-    position: absolute;
-    min-width: 140px;
-
-}
-
-.nav li:hover > ul {
-    display: block;
-}
 
 .contenedor {
     background-color: rgb(255, 255, 255);
     display: flex;
 	flex-wrap: wrap;
-    margin-top: -5.7vh;
+    margin-top: 3vh;
     position: absolute;
     width: 170vh;
+
 }
 
 .targetas {
     background-color: rgb(255, 255, 255);
-    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 7));
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 1));
     border-radius: 10px;
     display: flex;
 	justify-content: center;
