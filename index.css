@@ -12,14 +12,14 @@
     background-image: url(Img/avion-y-nubes-02.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
-    width: 207.4vh;
+    height: 50vh;
+    width: 100%;
 }
 
 .navi {
     background-color: black;
-    width: 207.4vh;
-    height: 6vh;
+    width: 100%;
+    height: auto;
 }
 
 .contenedor-all p {
@@ -38,7 +38,7 @@
 .lupa {
     position: absolute;
     width: 5vh;
-    top: 29vh;
+    top: 25vh;
     left: 141vh;
 
 }
@@ -48,7 +48,7 @@
     transition: 0.5s;
     top: 5.5vh;
     height: 5vh;
-    left: 180vh;
+    left: 160vh;
 
 }
 
@@ -67,22 +67,27 @@
     transition: 0.5s;
     top: 5.5vh;
     height: 5vh;
-    left: 190vh;
+    left: 172.5vh;
+}
+
+.carro {
+    margin-left: -15vh;
 }
 
 .contenedor-all input {
     border: 2px solid black;
     position: absolute;
     border-radius: 20px;
-    height: 7vh;
+    height: 5vh;
     width: 70vh;
     left: 70vh;
-    top: 28vh;
+    top: 25vh;
     text-align: center;
 }
 
 .p {
     margin-left: 17vh;
+    
 }
 
 .logo {
@@ -167,7 +172,7 @@
 	margin: auto;
     width: 83px;
     margin-right: 50vh;
-    margin-top: -6vh;
+    margin-top: -5.8vh;
 
 }
 
