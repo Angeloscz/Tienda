@@ -133,20 +133,15 @@
 
 .targetas {
     background-color: rgb(255, 255, 255);
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 1));
     border-radius: 10px;
     display: flex;
 	justify-content: center;
     margin: 5vh;
     height: 50vh;
     width: 30vh;
-    transition-duration: 0.5s;
 }
 
-.targetas:hover {
-    margin-top: 10px;
-    transition-duration: 0.5s;
-}
+
 
 .producto {
     background-color: rgba(0, 0, 255, 0);
@@ -199,6 +194,10 @@
 
 .nav li:hover > ul {
     display: block;
+}
+
+body {
+    background-color: rgb(217, 231, 243);
 }
 
 
